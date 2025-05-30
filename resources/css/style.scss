@@ -15,15 +15,109 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
+.text-left {
+  text-align: left;
+}
 
+// Hero section styles
 
+.hero {
+  background-image: url('https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/9051179f-076f-4b64-863f-4e34f12d6e66.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 30rem; 
+}
+  
+  
+ .student-mission {
+  background-color: $ink-blue;
+  padding: 2rem;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 13px 16px 21px rgba(0, 0, 0, 0.6);
+ }
+  
 
+ // Main content styles
 
+ // Table styles
+ .experience-table tbody tr:nth-of-type(even), .experience-table th {
+  background-color: #E4F3FF;
+}
+
+.experience-table th, .experience-table td {
+  padding: 1rem 1.5rem; // Adds vertical and horizontal padding to table headers
+}
   
+
+.experience-table,
+.experience-table th,
+.experience-table td {
+  border: none !important;
+}
   
-  
- 
-  
-  
- 
-  
+.expectation-section {
+  background: linear-gradient(270deg, #00244E 0%, #00559A 100%);
+}
+
+.smile-img-wrapper {
+  margin-top: 2rem;
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+}
+
+.smile-img {
+ border-radius: 0 20px 0 20px;
+  display: block;
+  position: relative;
+}
+
+.accordion-header, .accordion-item {
+  border: none !important;
+  font-weight: bold !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  color: $ink-blue !important;
+  box-shadow: none !important;
+
+}
+
+.accordion-button {
+  background-color: transparent !important;
+  color: $ink-blue !important;
+  font-weight: bold !important;
+  border: none !important;
+}
+
+.accordion-body {
+  border-bottom: 1px solid #D9D9D9 !important;
+}
+
+@media (max-width: 768px) {
+  .smile-img-wrapper::after {
+    top: -20px;
+    right: -10px;
+  }
+}
+
+// Two parent section styles
+.two-parent-section {
+background-color: #E4F3FF;
+}
+
+//card styles
+.card-img-top {
+  width: 100px;
+}
+.card-header {
+  background-color: #ffffff !important;
+  border: none !important;
+}
+
+.card {
+  gap: 1rem;
+border-radius: 25px;
+}

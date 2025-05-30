@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
- <!-- First Name Amp 
+<!-- First Name Amp 
   %%[
   var @contact 
   set @contact = QueryParameter('SFID')
@@ -33,6 +33,7 @@ Set @firstnamecombo = @firstname
 ENDIF
   ]%%
 -->
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,7 +41,7 @@ ENDIF
   <meta name="keywords" content="">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Starter Template </title>
+  <title> UC Parent Page </title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -52,8 +53,8 @@ ENDIF
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;700&display=swap"
     rel="stylesheet">
-    <link rel="shortcut icon" href="https://www.snhu.edu/assets/SNHU/images/common/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="https://www.snhu.edu/assets/SNHU/images/common/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="https://www.snhu.edu/assets/SNHU/images/common/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="https://www.snhu.edu/assets/SNHU/images/common/favicon.ico" type="image/x-icon" />
 
   <style>
 
@@ -97,26 +98,26 @@ ENDIF
 
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4NXPNK9L4W"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4NXPNK9L4W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-4NXPNK9L4W');
-</script>
+    gtag('config', 'G-4NXPNK9L4W');
+  </script>
 
-<!-- Hotjar Tracking Code for SNHU Properties -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2360018,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+  <!-- Hotjar Tracking Code for SNHU Properties -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 2360018, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
       a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
 
 </head>
 
@@ -145,51 +146,424 @@ ENDIF
     </nav>
   </header>
 
-  <!---Meet the New SNHU Term Names-->
+  <!-- Hero Section -->
+  <section class="hero d-flex  justify-content-center align-items-center text-center">
+    <div class="container">
+      <div class="row">
+        <div class=" col-md-6">
+          <div class="student-mission text-left ">
+            <h1 class="text-white mb-2">Your Student’s Success is Our Only Mission</h1>
+            <p class="text-white">A Parent/Supporter’s Guide to the Differences Between High School and College</p>
 
-  <div class="meet-div text-center d-flex justify-content-center align-items-center">
-  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- Main Content -->
+  <section class="main-content py-5">
+
+    <!-- Information about students-->
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-6 align-items-center d-flex justify-content-center">
+          <p class="">For some students, college might feel like an extension of high school. However, there are big
+            differences between the two that can trip students up if they are not ready for them. We encourage you to
+            start conversations with your student about these differences, how they plan to handle them and how you can
+            support them.</p>
+        </div>
+
+        <div class="col-md-6">
+          <img src="https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/fdaf4dc4-3b67-415c-be85-42f3f29010cb.png"
+            alt="Girl smiling at camera" class="img-fluid mb-3" width="100%" height="auto">
+        </div>
+      </div>
+
+
+
+
+
+      <!--Experience Table-->
+      <div class="row my-5">
+        <div class="col-md-12">
+          <table class="table  experience-table">
+            <thead>
+              <tr>
+                <th>COMMON HIGH SCHOOL EXPERIENCE</th>
+                <th>COMMON COLLEGE EXPERIENCE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Teachers often remind students about upcoming deadlines and exams.</td>
+                <td>Students use the course syllabus to keep track of upcoming deadlines and exams independently.</td>
+              </tr>
+              <tr>
+                <td>Students may study for exams or do homework at the last minute.</td>
+                <td>For every hour of class, students plan to spend 2 to 3 hours studying or doing homework.</td>
+              </tr>
+              <tr>
+                <td>Teachers often remind students about missing or incomplete assignments.</td>
+                <td>Students keep track of their own assignments and reach out to instructors when they have questions.
+                </td>
+              </tr>
+              <tr>
+                <td>Homework is often checked and graded.</td>
+                <td>Homework is not always checked or graded. It is sometimes assigned just for the student’s benefit —
+                  to help them gauge their own understanding or to prepare for exams.</td>
+              </tr>
+              <tr>
+                <td>There are no consequences for having a cumulative grade point average below 2.0.</td>
+                <td>A cumulative grade point average below 2.0 can result in consequences that range from a warning to
+                  suspension to dismissal from college.</td>
+              </tr>
+              <tr>
+                <td>Parents/guardians advocate for their students and have full access to their students’ academic
+                  records.</td>
+                <td>The student advocates for themself and can decide which academic and financial information to share
+                  with their parents/guardians.</td>
+              </tr>
+              <tr>
+                <td>Parents/guardians are notified if students have been missing school or are failing.</td>
+                <td>Parents/guardians are not notified about students’ attendance or grades.</td>
+              </tr>
+              <tr>
+                <td>The student may receive help from others to better manage their time and complete assignments</td>
+                <td>The student manages their own time and completes their assignments independently.</td>
+              </tr>
+              <tr>
+                <td>Teachers provide notes and other information to students who miss class.</td>
+                <td>Students let their instructors know when they’re going to be absent and plan to meet with
+                  instructors (during their office hours) to discuss what they missed.</td>
+              </tr>
+              <tr>
+                <td>Textbooks are typically free.</td>
+                <td>Students need to buy or rent books for their classes.</td>
+              </tr>
+              <tr>
+                <td>School counselors help keep students on track for graduation.</td>
+                <td>While academic advisors are always available, it is ultimately the student’s responsibility to be
+                  aware of and meet graduation requirements.</td>
+              </tr>
+              <tr>
+                <td>For students with documented disabilities, I.D.E.A. focuses on student success.</td>
+                <td>A.D.A. provides equal access.</td>
+              </tr>
+              <tr>
+                <td>I.E.P. or 504 Plan may include modifications to test format and/or grading.</td>
+                <td>Grading and test format changes are generally not available. Accommodations to HOW tests are given
+                  are available when student has registered for Campus Accessibility Center.</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+      </div>
+    </div> <!--Container End-->
+
+    <!--Expectations Section-->
+    <section class="expectation-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="text-white">It's critical that you set expectations with your student</h2>
+            <p class="text-white">For some students, college might feel like an extension of high school. However, there
+              are big differences between the two that can trip students up if they are not ready for them. We encourage
+              you to start conversations with your student about these differences, how they plan to handle them and how
+              you can support them.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="smile-img-wrapper">
+              <img
+                src="https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/556a9092-4f7a-4386-82d4-7caa877af41c.png"
+                alt="two students studying together" class="img-fluid mb-3 smile-img" width="100%" height="auto">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Expectations Section End-->
+
+    <!--Resources Section-->
+    <section class="resources-section py-5">
+      <div class="container">
+        <div class="row">
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What do you think your classes will be like?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Students may think they can take it easy and that they’ll be “passed along” in classes. The
+                    requirements for college are much different than high school, however. If a student doesn’t earn a C
+                    average in their first semester, they can be suspended. So, they will need to keep track of their
+                    assignments, communicate with their instructors and stayed engaged in their classes to succeed. If
+                    you are already worried about how your student will perform academically, let them know what your
+                    expectations are and how you will support them as they start this new academic chapter.
+                    <br><br>
+                    Other students may be extremely stressed about what the workload will be like and may be ready to
+                    focus only on academics. You know your student better than anyone. If you have a student who you
+                    think will put a lot of pressure on themself academically, remind them that they should have some
+                    fun and get involved, too! You might want to suggest they reach out to their faculty advisor early
+                    on to make that scholarly connection.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How do you feel about having a roommate/commuting?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Having a roommate can be difficult for anyone who has never shared a room before. Even students who
+                    find their roommates at Summer Orientation or through social media, and think they have found their
+                    perfect match, could have a tough time eventually sharing their space. Talking your student through
+                    the ups and downs of sharing a room will be helpful to them
+                    <br><br>
+                    Students who will have to commute may find it tough to make connections. They may complain about
+                    parking (which happens on every college campus!), and they may not realize how much effort they will
+                    need to put forth to be engaged on campus. Let them know about the Commuter Lounge in the Student
+                    Center, the importance of getting involved and discuss how they plan to manage commuting, school,
+                    and work (if they have a job).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What is your plan for getting involved on campus?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>TV, movies, and social media can make it look like college is one giant party. Many students come
+                    in thinking it will be the “best time of their lives.” In reality, though, college is regular life.
+                    If your student wants a vibrant social life, they’ll need to be friendly or attend campus events,
+                    even if they don’t have someone to go with. Clubs, activities, events, lounges like the Office of
+                    Diversity Programs, the First-Gen Lounge, or Commuter lounge, campus jobs, and intramural sports are
+                    all great ways for students to make connections, but they always need to take the first step and
+                    actually go.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="two-parent-section py-5">
+
+      <div class="container">
+        <h2 class="text-center">Two parent/supporter questions we hear most often</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>How can I stay connected</h3>
+            <ul>
+              <li>Request to receive the quarterly newsletter by emailing campuscommunications@snhu.edu.</li>
+              <li>Bookmark the Parents, Families and Supporters webpage and visit it as needed.</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img src="https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/abe40ed1-61d6-41ea-8b6b-55766b99b18a.png"
+              alt="students studying together" class="img-fluid mb-3" width="100%" height="auto">
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <img src="https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/1707a945-ca40-454f-9fb0-c470a05e5697.png"
+              alt="students studying together" class="img-fluid mb-3" width="100%" height="auto">
+          </div>
+          <div class="col-md-6">
+            <h3>Will I be able to access my student’s grades and other information? (Understanding FERPA)</h3>
+            <p>The Family Educational Rights and Privacy Act (FERPA) is a federal law that protects the privacy of
+              student education records. It gives students the right to control who can access their academic
+              information once they turn 18 or enroll in college, regardless of their age. What does this mean for
+              parents and supporters? If you have been used to having full access to your students’ grades, attendance,
+              and behavior records, that will no longer be the case!
+              <br><br>
+              Parents and supporters cannot access their student’s academic or financial information unless the student
+              gives consent, even if you are the one paying the bill! Students can grant access to their records by
+              signing the FERPA authorization for disclosure of non-directory information from within their my.snhu
+              account, but even then, you might not get the updates that you want.
+               <br><br>
+              Take this time now to encourage your student to communicate openly and responsibly with you and make a
+              plan for how you will communicate together if life at college isn’t going quite as they planned, or any
+              challenges arise.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="card-grid-section py-5">
+      <div class="container">
+        <div id="cardContainer">
+          <!-- Card Container -->
+          <div class="row g-5" id="cardRow">
+            <div class="col-md-4 mb-4 card-col">
+              <div class="card p-3">
+                <div>
+                  <div class="card-header d-flex justify-content-center">
+                    <img class="card-img-top"
+                      src="https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/e61233f4-68cc-4b32-8aa3-4353b1ea50aa.png" />
+                  </div>
+                  <div class="card-body d-flex flex-column">
+                    <h3 class="card-title text-center" style="color: #0a3370; font-size: 1.25rem; font-weight: 700">
+                      Academic Advising</h3>
+                    <p class="card-text text-center"> <a href="tel:6036459630">603-645-9630,</a> <br> <a
+                        href="mailto:academicadvising@snhu.edu"> academicadvising@snhu.edu</a> </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- End Card Template -->
+        </div>
+      </div>
+    </section>
+
+
+  </section> <!-- Main Content End -->
+
+
 
   <!--Accreditation-->
 
-  <div role="region" aria-label="Accreditations" class="container-fluid align-items-center text-center py-5 bg-light accreditation">
+  <div role="region" aria-label="Accreditations"
+    class="container-fluid align-items-center text-center py-5 bg-light accreditation">
     <img class="col-10 col-xxl-6"
       src="https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/da987c7f-9fd4-420f-a9ac-3b64535744f8.png"
       alt="SNHU accreditation logos" width="100%" height="auto">
   </div>
 
-   <!--Footer-->
+  <!--Footer-->
 
-   <footer class="py-5">
+  <footer class="py-5">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-4 d-flex justify-content-center align-items-center">
           <p class="" style="color:#fff"> <strong>SNHU Admission</strong><br>
-            55 S. Commercial Street
+            2500 North River Road
             <br> Manchester, NH 03106
             <br>
-            <a href="Tel:8883870864" class="text-link">888.387.0864</a>
+            <a href="Tel:8006681249" class="text-link">800.668.1249</a>
             <br>
             <a href="mailto:admissions@snhu.edu" class="text-link primary-link"> admissions@snhu.edu </a>
         </div>
 
         <div class="col-md-4 d-flex justify-content-center align-items-center my-3">
-          <a href="https://www.snhu.edu/" target="_blank"
-          class="link-dark text-decoration-none">
-          <img
-            src="https://client-data.knak.io/production/email_assets/5fd10b569d941/Y9PaAR4BN1uvwQSeUR37Jtdwa2YUrN1By1RZIsk8.png"
-            height="80" alt="SNHU logo">
-        </a>
+          <a href="https://www.snhu.edu/" target="_blank" class="link-dark text-decoration-none">
+            <img
+              src="https://client-data.knak.io/production/email_assets/5fd10b569d941/Y9PaAR4BN1uvwQSeUR37Jtdwa2YUrN1By1RZIsk8.png"
+              height="80" alt="SNHU logo">
+          </a>
         </div>
 
         <div class="col-md-4 d-flex justify-content-center align-items-center">
-          <p  style="color: #fff;">
+          <p style="color: #fff;">
             © %%=FormatDate(Now(), "yyyy")=%%<br>
             Southern New Hampshire University<br>
-            View our <a href="https://www.snhu.edu/privacy-policy" class="text-link primary-link">Privacy Policy</a> | <a
-              href="https://www.snhu.edu/about-us/accessibility" class="text-link primary-link">Accessibility at SNHU</a>
+            View our <a href="https://www.snhu.edu/privacy-policy" class="text-link primary-link">Privacy Policy</a> |
+            <a href="https://www.snhu.edu/about-us/accessibility" class="text-link primary-link">Accessibility at
+              SNHU</a>
           </p>
         </div>
       </div>
     </div>
   </footer>
+
+  <script>
+    // Inline JSON data with image URLs
+    const jsonData = [
+
+      {
+        "title": "Campus Accessibility Center",
+        "content": '<a href="tel:6036443118">603-644-3118,</a> <br> <a href="mailto:cac@snhu.edu"> cac@snhu.edu</a>',
+        "imgSrc": "https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/3edfd05b-dcdd-4a2e-bb12-325d032136cd.png"
+      },
+      {
+        "title": "The Wellness Center",
+        "content": '<a href="tel:6036443118">603-644-3118,</a> <br> <a href="mailto:cac@snhu.edu"> cac@snhu.edu</a>',
+        "imgSrc": "https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/ccb18f6f-60f1-44a6-be62-e1e60fc82fa5.png"
+      },
+      {
+        "title": "Career Development",
+        "content": '<a href="tel:6036443118">603-644-3118,</a> <br> <a href="mailto:cac@snhu.edu"> cac@snhu.edu</a>',
+        "imgSrc": "https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/e3b97c65-eaf1-4d35-bef1-0d32f3d503aa.png"
+      },
+      {
+        "title": "The Wolak Learning Center",
+        "content": '<a href="tel:6036443118">603-644-3118,</a> <br> <a href="mailto:cac@snhu.edu"> cac@snhu.edu</a>',
+        "imgSrc": "https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/7e0b0c7d-a8e4-463b-8ed3-034fe274cbed.png"
+      },
+      {
+        "title": "Public Safety and Security",
+        "content": '<a href="tel:6036443118">603-644-3118,</a> <br> <a href="mailto:cac@snhu.edu"> cac@snhu.edu</a>',
+        "imgSrc": "https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/2f16b492-5051-4b02-ac94-6a6635019a01.png"
+      },
+      {
+        "title": "Residence Life",
+        "content": '<a href="tel:6036443118">603-644-3118,</a> <br> <a href="mailto:cac@snhu.edu"> cac@snhu.edu</a>',
+        "imgSrc": "https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/71ca3942-8d7b-4ff9-a558-3b9837834c97.png"
+      },
+      {
+        "title": "Student Involvement",
+        "content": '<a href="tel:6036443118">603-644-3118,</a> <br> <a href="mailto:cac@snhu.edu"> cac@snhu.edu</a>',
+        "imgSrc": "https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/fd5a95a4-2ba6-49c4-a82c-e1801566d50a.png"
+      },
+      {
+        "title": "Student Employment",
+        "content": '<a href="tel:6036443118">603-644-3118,</a> <br> <a href="mailto:cac@snhu.edu"> cac@snhu.edu</a>',
+        "imgSrc": "https://image.dream.snhu.edu/lib/fe9113737461067571/m/1/5285f0e0-aab3-450c-81a3-4851296512f6.png"
+      },
+    ];
+
+    // Reference to the card container and card row
+    const cardContainer = document.getElementById('cardContainer');
+    const cardRow = document.getElementById('cardRow');
+
+    // Get the card template
+    const cardTemplate = document.querySelector('#cardContainer .card-col');
+
+    // Loop through the data and generate Bootstrap cards with two cards per row
+    jsonData.forEach((cardData, index) => {
+
+
+      // Clone the card template
+      const newCard = cardTemplate.cloneNode(true);
+
+      // Update card content
+      newCard.querySelector('.card-title').textContent = cardData.title;
+      newCard.querySelector('.card-text').innerHTML = cardData.content;
+      newCard.querySelector('img').src = cardData.imgSrc;
+
+      // Append the new card to the row
+      cardRow.appendChild(newCard);
+
+      // Display the new card (remove the "d-none" class if you have it)
+      newCard.classList.remove('d-none');
+
+    });
+  </script>
