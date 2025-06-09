@@ -12,7 +12,7 @@
 
 
 body {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .text-left {
@@ -26,7 +26,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 30rem; 
+  min-height: 40rem; 
 }
   
   
@@ -37,6 +37,10 @@ body {
   box-shadow: 13px 16px 21px rgba(0, 0, 0, 0.6);
  }
   
+ .student-img {
+  top: -16rem;
+  position: absolute
+ }
 
  // Main content styles
 
@@ -100,6 +104,16 @@ body {
   .smile-img-wrapper::after {
     top: -20px;
     right: -10px;
+  }
+
+  .student-img {
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .col-rev-mobile {
+    flex-direction: column-reverse;
   }
 }
 
